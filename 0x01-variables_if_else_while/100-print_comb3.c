@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print_comb3
- * Return: Returns 0 
+ * Return: Returns 0
  */
 int main(void)
 {
