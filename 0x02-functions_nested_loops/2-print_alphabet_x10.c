@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10 - print_alphabet_x10
  *
- * Description: Prints 10 times the alphabet, in lowercase, followed by a new line
+ * Description: Prints 10 times the alphabet, in lowercase
  *
  * Return: Returns 0
  */
