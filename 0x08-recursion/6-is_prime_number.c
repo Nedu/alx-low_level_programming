@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime - function that returns 1 if the input 
+ * is_prime - function that returns 1 if the input
  * integer is a prime number, otherwise return 0
  * @n: input integer
  * @c: iterator
@@ -18,7 +18,7 @@ int is_prime(unsigned int n, unsigned int c)
 	return (0 + is_prime(n, c + 1));
 }
 /**
- * is_prime_number - function that returns 1 if the input 
+ * is_prime_number - function that returns 1 if the input
  * integer is a prime number, otherwise return 0
  * @n: input integer.
  * Return: Returns 1 if n is a prime number. 0 if n is not a prime number.
