@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Author - Nedu Robert
  * main - Size is not grandeur, and territory does not make a nation
  * prints the size of various types on the computer it is compiled and run on.
+ * Author - Nedu Robert
  *
  * Return: Returns 0
  */
