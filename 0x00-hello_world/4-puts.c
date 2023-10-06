@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Hello, puts task: program that 
- * prints exactly "Programming is like building 
+ * main - Hello, puts task: program that
+ * prints exactly "Programming is like building
  * a multilingual puzzle, followed by a new line.
  * Author - Nedu Robert
  *
@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-    puts("\"Programming is like building a multilingual puzzle\n");
-    return(0);
+    puts("\"Programming is like building a multilingual puzzle");
+    return (0);
 }
