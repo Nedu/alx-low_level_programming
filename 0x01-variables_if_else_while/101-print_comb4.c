@@ -24,7 +24,7 @@ int main(void)
 					putchar(j);
 					putchar(k);
 				}
-				else 
+				else
 				{
 					continue;
 				}
