@@ -16,17 +16,17 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (j = iterator; j <= '9'; j++)
-        {
-            if (i == j)
+		{
+			if (i == j)
 			{
 				continue;
 			}
-            if (i != j)
-            {
-                putchar(i);
-                putchar(j);
-            }
-            if (i == '8' && j == '9')
+			if (i != j)
+			{
+				putchar(i);
+				putchar(j);
+			}
+			if (i == '8' && j == '9')
 			{
 				break;
 			}
@@ -35,8 +35,8 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-        }
-        iterator++;
+		}
+		iterator++;
 	}
 	putchar('\n');
 	return (0);

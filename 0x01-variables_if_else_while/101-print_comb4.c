@@ -24,7 +24,8 @@ int main(void)
 					putchar(j);
 					putchar(k);
 				}
-				else {
+				else 
+				{
 					continue;
 				}
 				if (i == '7' && j == '8' && k == '9')
