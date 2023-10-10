@@ -8,7 +8,7 @@
  * in lowercase, followed by a new line.
  * Author - Nedu Robert
  *
- * Return: Returns 0
+ * Return: Returns void
  */
 void print_alphabet(void)
 {
