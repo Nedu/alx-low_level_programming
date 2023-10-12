@@ -23,6 +23,7 @@ void print_times_table(int n)
                 result = i * j;
                 _putchar(result + '0');
             }
+            _putchar('\n');
         }
     }
 }
