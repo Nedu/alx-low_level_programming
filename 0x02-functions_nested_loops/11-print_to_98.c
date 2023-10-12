@@ -1,25 +1,38 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * add - a + b
+ * print_to_98 - 98 Battery Street, the OG
  * function that prints all natural numbers from n to 98,
  * followed by a new line.
- * @a: input number.
- * @b: input number.
+ * @n: input number.
  * Author - Nedu Robert
  *
- * Return: Returns sum of the two inputs
+ * Return: Returns void
  */
 void print_to_98(int n)
 {
     int i;
-	for (i = n; i <= 98; i++)
+
+    if (n <= 98)
     {
-        _putchar(i);
         if (i != 98)
         {
-            _putchar(' ');
-            _putchar(',');
+            for (i = n; i <= 98; i++)
+            {
+                printf("%d, ", i);
+            }
+        }
+        else
+        {
+            printf("%d\n", i);
+        }
+    }
+    else if (n > 98)
+    {
+        for (i = n; i > 98; i--)
+        {
+            printf("%d, ", i)
         }
     }
 }
