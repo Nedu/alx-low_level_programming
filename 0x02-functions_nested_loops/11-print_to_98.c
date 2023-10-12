@@ -12,7 +12,8 @@
  */
 void print_to_98(int n)
 {
-	for (let i = n; i <= 98; i++)
+    let i;
+	for (i = n; i <= 98; i++)
     {
         _putchar(i);
         if (i != 98)
