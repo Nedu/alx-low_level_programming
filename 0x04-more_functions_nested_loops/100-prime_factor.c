@@ -15,6 +15,7 @@
 int main(void)
 {
 	long int i, num;
+
 	num = 612852475143;
 
 	for (i = 2; i <= num; i++)
