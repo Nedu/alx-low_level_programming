@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - I feel like I am diagonally parked in a parallel universe
+ * print_diagonal - I feel like I am diagonally parked in a parallel universe
  * Function that draws a diagonal line in the terminal.
  * @n: input number
  * Author - Nedu Robert
