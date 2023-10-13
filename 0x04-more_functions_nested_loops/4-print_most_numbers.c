@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - I believe in numbers and signs
+ * print_most_numbers - I believe in numbers and signs
  * Function that prints the numbers, from 0 to 9,
  * followed by a new line except 2 and 4.
  * Author - Nedu Robert
