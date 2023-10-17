@@ -8,7 +8,7 @@
  * Author - Nedu Robert
  * Return: Returns void.
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int i = 0;
 	int j;
