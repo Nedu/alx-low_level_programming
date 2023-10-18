@@ -3,7 +3,8 @@
 
 /**
  * print_array - Arrays are not pointers
- * Function that prints n elements of an array of integers, followed by a new line.
+ * Function that prints n elements of an array of integers,
+ * followed by a new line.
  * @a: pointer to int a.
  * @n: int.
  * Author - Nedu Robert
