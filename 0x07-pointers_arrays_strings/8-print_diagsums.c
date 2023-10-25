@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_chessboard - The line of life is a ragged
+ * print_diagsums - The line of life is a ragged
  * diagonal between duty and desire
  * Function that prints the sum of the two
  * diagonals of a square matrix of integers.
