@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number - Inception. Is it possible?
+ * is_prime - Inception. Is it possible?
  * Function returns 1 if the input integer is a prime number,
  * otherwise return 0.
  * @n: input int n
@@ -21,6 +21,16 @@ int is_prime(unsigned int n, unsigned int c)
 	}
 	return (0 + is_prime(n, c + 1));
 }
+
+/**
+ * is_prime_number - Inception. Is it possible?
+ * Function returns 1 if the input integer is a prime number,
+ * otherwise return 0.
+ * @n: input int n
+ * Author - Nedu Robert
+ * Return: Returns 1 if the input integer is a prime number,
+ * otherwise return 0
+ */
 
 int is_prime_number(int n)
 {
