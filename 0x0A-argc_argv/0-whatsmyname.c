@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strstr - strstr
+ * main - main function
  * Program that prints its name, followed by a new line.
  * @argc: int argc.
  * @argv: char argv array.
