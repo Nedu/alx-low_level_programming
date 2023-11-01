@@ -7,7 +7,7 @@
  * which contains a copy of the string given as a parameter.
  * @str: unsigned int size of the array to create.
  * Author - Nedu Robert
- * Return: Returns a pointer to the duplicated string. 
+ * Return: Returns a pointer to the duplicated string.
  * It returns NULL if insufficient memory was available or if str is NULL
  */
 char *_strdup(char *str)
@@ -15,9 +15,10 @@ char *_strdup(char *str)
 	char *duplicate;
 	int size = 0;
 	int i = 0;
+
 	if (str == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 	else
 	{
