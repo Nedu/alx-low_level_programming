@@ -14,11 +14,9 @@ char *argstostr(int ac, char **av)
 {
 	char *concatenatedString;
 	int i = 0, j = 0, k = 0, size = 0;
-	
+
 	if (ac == 0 || av == NULL)
-	{
 		return (NULL);
-	}
 
 	while (i < ac)
 	{
@@ -30,12 +28,9 @@ char *argstostr(int ac, char **av)
 		j = 0;
 		i++;
 	}
-
 	concatenatedString = (char *)malloc((sizeof(char) * size) + ac + 1);
-
 	if (concatenatedString == NULL)
 		return (NULL);
-
 	i = 0;
 	while (av[i])
 	{
