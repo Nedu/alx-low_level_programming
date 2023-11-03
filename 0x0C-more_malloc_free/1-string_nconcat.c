@@ -28,7 +28,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2[s2Size])
 		s2Size++;
 
-	concatenatedString = malloc(sizeof(char) * (s1Size + s2Size + 1));
 	if (n >= s2Size)
 		concatenatedString = malloc(sizeof(char) * (s1Size + s2Size + 1));
 	else
