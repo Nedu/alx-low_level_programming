@@ -42,7 +42,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 	}
 
-	while ((n >= s2Size && i < (s1Size + s2Size)) || (n < s2Size && i < (s1Size + n)))
+	while ((n >= s2Size && i < (s1Size + s2Size)) ||
+	(n < s2Size && i < (s1Size + n)))
 	{
 		concatenatedString[i] = s2[j];
 		i++;
