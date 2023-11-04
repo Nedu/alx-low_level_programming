@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * array_range - array_range
+ * _realloc - _realloc
  * Function that creates an array of integers.
  * @ptr: input void ptr that is a pointer to the memory
  * previously allocated with a call to malloc: malloc(old_size).
@@ -27,7 +27,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 		if (res == NULL)
 			return (NULL);
-		
+
 		return (res);
 	}
 	else
