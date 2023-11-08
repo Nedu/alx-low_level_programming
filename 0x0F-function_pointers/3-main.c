@@ -4,19 +4,19 @@
  * main - Sum of two inputs
  * @argc: int argc.
  * @argv: char argv array.
- * 
+ *
  * Author - Nedu Robert
  * Return: Returns 0
  */
 int main(int argc, char *argv[])
 {
-	int i, j,result;
+	int i, j, result;
 	int (*operator)(int, int);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 	else
 	{
