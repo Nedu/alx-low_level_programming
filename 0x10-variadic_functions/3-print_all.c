@@ -18,33 +18,36 @@ void print_all(const char * const format, ...)
 	char *currentString;
 
 	va_start(list, format);
-	while (format[i])
+	if (format)
 	{
-		switch (format[i])
+		while (format[i])
 		{
-			case 'c':
-				printf("%s%c", seperator, va_arg(list, int));
-				break;
-			case 'i':
-				printf("%s%d", seperator, va_arg(list, int));
-				break;
-			case 'f':
-				printf("%s%f", seperator, va_arg(list, double));
-				break;
-			case 's':
-				currentString = va_arg(list, char *);
-				if (!currentString)
-				{
-					currentString = "(nil)";
-				}
-				printf("%s%s", seperator, currentString);
-				break;
-			default:
-				i++;
-				continue;
+			switch (format[i])
+			{
+				case 'c':
+					printf("%s%c", seperator, va_arg(list, int));
+					break;
+				case 'i':
+					printf("%s%d", seperator, va_arg(list, int));
+					break;
+				case 'f':
+					printf("%s%f", seperator, va_arg(list, double));
+					break;
+				case 's':
+					currentString = va_arg(list, char *);
+					if (!currentString)
+					{
+						currentString = "(nil)";
+					}
+					printf("%s%s", seperator, currentString);
+					break;
+				default:
+					i++;
+					continue;
+			}
+			seperator = ", ";
+			i++;
 		}
-		seperator = ", ";
-		i++;
 	}
 	va_end(list);
 
