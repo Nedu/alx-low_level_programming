@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * print_listint - List length
+ * listint_len - List length
  * Function that returns the number of elements in a linked listint_t list.
  * @h: pointer to the list
  *
